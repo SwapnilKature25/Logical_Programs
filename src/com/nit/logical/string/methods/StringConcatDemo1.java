@@ -6,13 +6,13 @@ public class StringConcatDemo1 {
 		String s1 = "Data";
 		String s2 = "base";
 		
-		String concat = s1.concat(s2);
+		String concat = s1.concat(s2);  // Database
 		System.out.println("String after Concatenation is :"+concat);
 		
 		System.out.println("====================");
 		
 		String s3="Hyderabad is an";
-		concat = s3.concat(" it City");
+		concat = s3.concat(" it City");  // Hyd.....
 		System.out.println("String after Concatenation is :"+concat);
 		
 		System.out.println("====================");

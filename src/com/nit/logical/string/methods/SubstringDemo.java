@@ -13,7 +13,7 @@ public class SubstringDemo {
 //		System.out.println(str.substring(0,-2));
 		//java.lang.StringIndexOutOfBoundsException: Range [0, -2) out of bounds for length 9
 	
-		System.out.println(str.substring(-2,2));
+		System.out.println(str.substring(2,2));
 		//java.lang.StringIndexOutOfBoundsException: Range [-2, 2) out of bounds for length 9
 	}
 }
