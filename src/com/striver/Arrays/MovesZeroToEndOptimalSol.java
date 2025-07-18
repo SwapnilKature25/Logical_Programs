@@ -2,7 +2,7 @@ package com.striver.Arrays;
 
 import java.util.Arrays;
 
-
+// Optimal solution
 public class MovesZeroToEndOptimalSol {
 
 	public static void main(String[] args) {
