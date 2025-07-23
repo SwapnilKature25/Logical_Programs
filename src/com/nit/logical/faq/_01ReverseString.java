@@ -12,5 +12,23 @@ public class _01ReverseString {
 		}
 		
 		System.out.println("Reversed string is : "+reversed);
+		
+		System.out.println();
+		
+		 	String str2 = "hello";
+	        char[] chars = str2.toCharArray();
+	        
+	        int left = 0, right = chars.length - 1;
+	        while (left < right) {
+	            // Swap characters
+	            char temp = chars[left];
+	            chars[left] = chars[right];
+	            chars[right] = temp;
+
+	            left++;
+	            right--;
+	        }
+
+	        System.out.println("Reversed: " + new String(chars));
 	}
 }
