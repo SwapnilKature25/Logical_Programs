@@ -20,8 +20,6 @@ public class StringContainsOnlyDigits {
 	            return false;
 	        }
 	    }
-
 	    return true;
 	}
-
 }
